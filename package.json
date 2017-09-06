@@ -1,5 +1,5 @@
 {
-	"name": "fcrawler",
+  "name": "fcrawler",
   "version": "1.0.0",
   "author": "mzhang0",
   "description": "Focused web crawling package for Node.js",
