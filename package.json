@@ -1,0 +1,24 @@
+{
+	"name": "fcrawler",
+  "version": "1.0.0",
+  "author": "mzhang0",
+  "description": "Focused web crawling package for Node.js",
+  "main": "./lib/fcrawler.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzhang0/fcrawler"
+  },
+  "dependencies": {
+    "cheerio": "~1.0.0-rc.2",
+    "lodash": "^4.17.4",
+    "google-closure-library": "^20170806.0.0",
+    "request": "^2.81.0",
+    "url": "^0.11.0",
+    "valid-url": "^1.0.9"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzhang0/fcrawler/issues"
+  },
+  "homepage": "https://github.com/mzhang0/fcrawler"
+}
