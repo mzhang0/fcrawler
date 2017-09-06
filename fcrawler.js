@@ -1,4 +1,5 @@
 const cheerio = require('cheerio');
+var _ = require('lodash');
 var request = require('request');
 var url = require('url');
 var validUrl = require('valid-url');
@@ -22,14 +23,9 @@ function FocusedCrawler(config) {
     domainBlackList: []
   };
 
-  this.config = {
-    maxLinks: 100000,
-    callStackBreakSize: 1000
-  };
+  this.config = _.extend(defaultConfig, config);
 
-  this._options = {
-    timeout: 3000,
-  };
+  this._requestOptions = {}; 
 }
 
 FocusedCrawler.prototype.clear = function() {
@@ -100,7 +96,6 @@ FocusedCrawler.prototype._crawl = function() {
   }
   else
     setTimeout(function() { that._callStackSize++; that._crawl(); }, 0);
-  
 };
 
 FocusedCrawler.prototype.crawl = function(seedLinks, searchTerms) {
