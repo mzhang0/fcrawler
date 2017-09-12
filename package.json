@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "cheerio": "~1.0.0-rc.2",
-    "lodash": "^4.17.4",
     "google-closure-library": "^20170806.0.0",
+    "level": "^1.7.0",
+    "lodash": "^4.17.4",
     "request": "^2.81.0",
+    "robots-txt": "^1.0.0",
     "url": "^0.11.0",
     "valid-url": "^1.0.9"
   },
