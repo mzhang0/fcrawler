@@ -12,6 +12,7 @@
     "cheerio": "~1.0.0-rc.2",
     "google-closure-library": "^20170806.0.0",
     "lodash": "^4.17.4",
+    "natural": "^0.5.4",
     "request": "^2.81.0",
     "robots-txt-parser": "^1.0.1",
     "url": "^0.11.0",
