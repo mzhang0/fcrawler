@@ -15,7 +15,7 @@
     "lru-cache": "^4.1.1",
     "natural": "^0.5.4",
     "request": "^2.81.0",
-    "robotto": "^1.0.16",
+    "robots-parser": "^1.0.1",
     "url": "^0.11.0",
     "valid-url": "^1.0.9"
   },
