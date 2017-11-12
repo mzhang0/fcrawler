@@ -15,7 +15,7 @@ cd fcrawler && npm install
 var FocusedCrawler = require('fcrawler');
 var fc = new FocusedCrawler();
 var searchTerms = [
-	'javascript','code','programming’,
+	'javascript','code','programming',
 	'language','js','ecmascript','web'
 ];
 var seedLinks = ['https://developer.mozilla.org/en-US/docs/Web/JavaScript'];
