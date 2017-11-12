@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "mzhang0",
   "description": "Focused web crawling package for Node.js",
-  "main": "./lib/fcrawler.js",
+  "main": "lib/fcrawler.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mzhang0/fcrawler"
@@ -14,10 +14,12 @@
     "lodash": "^4.17.4",
     "lru-cache": "^4.1.1",
     "natural": "^0.5.4",
+    "node-bayes": "^1.1.0",
     "request": "^2.81.0",
     "robots-parser": "^1.0.1",
+    "textract": "^2.2.0",
     "url": "^0.11.0",
-    "valid-url": "^1.0.9"
+    "valid-url": "^1.0.9",
   },
   "license": "MIT",
   "bugs": {
